@@ -150,3 +150,7 @@ window.setInterval(function () {
     cor += 0.003;
     cor = cor % (Math.PI * 2);
 }, 0);
+
+window.setTimeout(function (){
+    toCir();
+}, 10000);
